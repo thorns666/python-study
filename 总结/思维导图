@@ -1,0 +1,80 @@
+Python 基本知识
+├── 基础语法
+│   ├── 打印输出
+│   │   └── print("Hello, World!")
+│   ├── 注释
+│   │   ├── 单行注释: #
+│   │   └── 多行注释: '''...''' 或 """..."""
+│   └── 变量
+│       ├── 赋值: x = 10
+│       ├── 数据类型: int, float, str
+│       └── 类型转换: int(), float(), str()
+├── 数据结构
+│   ├── 列表 (List)
+│   │   ├── 定义: lst = [1, 2, 3]
+│   │   ├── 访问: lst[0]
+│   │   ├── 修改: lst[1] = "two"
+│   │   ├── 添加: lst.append("d")
+│   │   └── 删除: lst.remove(3)
+│   ├── 元组 (Tuple)
+│   │   ├── 定义: tpl = (1, 2, 3)
+│   │   └── 访问: tpl[0]
+│   ├── 字典 (Dictionary)
+│   │   ├── 定义: d = {"name": "Alice"}
+│   │   ├── 访问: d["name"]
+│   │   ├── 修改: d["age"] = 26
+│   │   ├── 添加: d["city"] = "NY"
+│   │   └── 删除: del d["city"]
+│   └── 集合 (Set)
+│       ├── 定义: s = {1, 2, 3}
+│       ├── 添加: s.add("d")
+│       └── 删除: s.remove("a")
+├── 运算符
+│   ├── 算术运算符: +, -, *, /, %, **, //
+│   ├── 比较运算符: ==, !=, >, <, >=, <=
+│   ├── 逻辑运算符: and, or, not
+│   ├── 赋值运算符: =, +=, -=, *=, /=, //=, **=
+│   ├── 成员运算符: in, not in
+│   └── 身份运算符: is, is not
+├── 控制流
+│   ├── 条件语句
+│   │   ├── if
+│   │   ├── elif
+│   │   └── else
+│   ├── 循环语句
+│   │   ├── for
+│   │   │   ├── for i in range(5)
+│   │   │   └── for item in lst
+│   │   └── while
+│   │       └── while i < 5
+│   ├── break
+│   └── continue
+├── 函数
+│   ├── 定义函数: def greet(name)
+│   ├── 调用函数: greet("Alice")
+│   ├── 默认参数: def greet(name="World")
+│   ├── 可变参数: def add(*args)
+│   ├── 关键字参数: def display(**kwargs)
+│   └── 函数注释: def func(param: type) -> return_type
+├── 类与对象
+│   ├── 定义类: class Person
+│   │   ├── 初始化: def __init__(self, name, age)
+│   │   └── 方法: def greet(self)
+│   ├── 创建对象: p = Person("Alice", 25)
+│   ├── 访问属性: p.name
+│   ├── 修改属性: p.age = 26
+│   └── 继承: class Student(Person)
+├── 模块与包
+│   ├── 导入模块: import math
+│   ├── 导入特定函数: from math import sqrt
+│   └── 安装第三方包: pip install package_name
+├── 文件操作
+│   ├── 读文件
+│   │   └── with open('file.txt', 'r') as file: content = file.read()
+│   └── 写文件
+│       └── with open('file.txt', 'w') as file: file.write("content")
+└── 异常处理
+    ├── try
+    ├── except
+    │   └── except ExceptionType
+    └── finally
