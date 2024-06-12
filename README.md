@@ -1,1 +1,1 @@
-作者在python学习中的记录，使用的是jupyter notebook
+作者在python学习中的记录，jupyter notebook
